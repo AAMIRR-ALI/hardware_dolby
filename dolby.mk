@@ -67,6 +67,11 @@ PRODUCT_PACKAGES += \
     libstagefright_softomx.vendor \
     libstagefright_softomx_plugin.vendor \
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libldacBT_abr \
+    libldacBT_enc \
+
 # Dolby Props
 TARGET_USES_DOLBY := true
 PRODUCT_VENDOR_PROPERTIES += \
