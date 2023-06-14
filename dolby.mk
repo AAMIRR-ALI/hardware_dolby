@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     libldacBT_abr \
+    libldacBT_bco \
     libldacBT_enc \
 
 # Dolby Props
