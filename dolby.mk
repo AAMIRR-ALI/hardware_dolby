@@ -129,15 +129,11 @@ PRODUCT_COPY_FILES += \
 
 # LDAC/LHDC Proprietary Blobs
 PRODUCT_COPY_FILES += \
-    $(DOLBY_PATH)/ldac/system/system/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/libldacBT_abr.so \
-    $(DOLBY_PATH)/ldac/system/system/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/libldacBT_enc.so \
-    $(DOLBY_PATH)/ldac/system/system/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/libldacBT_abr.so \
-    $(DOLBY_PATH)/ldac/system/system/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/libldacBT_enc.so \
-    $(DOLBY_PATH)/ldac/system_ext/lib/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblhdc.so \
-    $(DOLBY_PATH)/ldac/system_ext/lib/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblhdcBT_enc.so \
-    $(DOLBY_PATH)/ldac/system_ext/lib/liblhdcv5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblhdcv5.so \
-    $(DOLBY_PATH)/ldac/system_ext/lib/liblhdcv5BT_enc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblhdcv5BT_enc.so \
-    $(DOLBY_PATH)/ldac/system_ext/lib64/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblhdc.so \
-    $(DOLBY_PATH)/ldac/system_ext/lib64/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblhdcBT_enc.so \
-    $(DOLBY_PATH)/ldac/system_ext/lib64/liblhdcv5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblhdcv5.so \
-    $(DOLBY_PATH)/ldac/system_ext/lib64/liblhdcv5BT_enc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblhdcv5BT_enc.so \
+    $(DOLBY_PATH)/ldac/system/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libldacBT_abr.so \
+    $(DOLBY_PATH)/ldac/system/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libldacBT_enc.so \
+    $(DOLBY_PATH)/ldac/system/lib/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblhdc.so \
+    $(DOLBY_PATH)/ldac/system/lib/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblhdcBT_enc.so \
+    $(DOLBY_PATH)/ldac/system/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libldacBT_abr.so \
+    $(DOLBY_PATH)/ldac/system/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libldacBT_enc.so \
+    $(DOLBY_PATH)/ldac/system/lib64/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblhdc.so \
+    $(DOLBY_PATH)/ldac/system/lib64/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblhdcBT_enc.so \
